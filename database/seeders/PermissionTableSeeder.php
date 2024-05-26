@@ -28,7 +28,6 @@ class PermissionTableSeeder extends Seeder
             'show-request',
             'edit-request',
 
-
         ];
 
         foreach ($permissions as $permission) {

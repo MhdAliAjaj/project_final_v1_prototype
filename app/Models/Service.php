@@ -26,4 +26,9 @@ class Service extends Model
     {
         return $this->belongsTo(Category::class);
     }
+     //relation between Request_client and services : one to many 
+     public function requst_services_R():HasMany
+     {
+         return $this->hasMany(RequstService::class);
+     }
 }
